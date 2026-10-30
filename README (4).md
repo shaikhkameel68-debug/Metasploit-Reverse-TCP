@@ -92,14 +92,6 @@ The shell reported Windows version `6.1.7601`. A directory listing of `C:\Users\
 - A Meterpreter session was opened and a Windows command shell was accessed.
 - The target's Downloads directory showed the generated executable.
 
-## Current Project Progress
-
-- [x] Generate a Windows Meterpreter reverse TCP payload
-- [x] Configure and start the Metasploit multi/handler
-- [x] Establish a Reverse TCP Meterpreter session in the lab
-- [x] Verify shell access and the downloaded file
-- [ ] Additional post-exploitation tasks and documentation
-
 ## Conclusion
 
 The Reverse TCP practical was successfully demonstrated in the VMware lab. The Windows VM initiated an outbound connection back to the Kali VM, allowing the configured Metasploit handler to establish a Meterpreter session. This confirms the reverse connection workflow in the controlled lab environment.
